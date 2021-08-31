@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/sokrat-logo.svg";
 
 export function Header() {
   return (
@@ -10,7 +11,7 @@ export function Header() {
           <br />в приложении Sokrat.
         </p>
 
-        <Link to='#' class='btn btn--pink'>
+        <Link to='#' className='btn btn--pink'>
           Скачать
         </Link>
       </div>
@@ -20,9 +21,9 @@ export function Header() {
           <div className='logo'>
             <Link to='#' className='logo__link'>
               <img
-                src='img/sokrat-logo.svg'
+                src={logo}
                 alt='Sokrat Logo'
-                class='logo__img'
+                className='logo__img'
                 width='157'
                 height='36'
               />
@@ -37,7 +38,7 @@ export function Header() {
               id='search__form-header'
               action='#'
             >
-              <label className='visually-hidden' for='search__input'>
+              <label className='visually-hidden' htmlFor='search__input'>
                 Поиск по курсам
               </label>
               <input
@@ -45,7 +46,6 @@ export function Header() {
                 id='search__input'
                 type='text'
                 placeholder='Поиск по курсам'
-                value=''
                 name='s'
               />
               <button
@@ -63,7 +63,7 @@ export function Header() {
               <img
                 src='img/bookmark-icon.svg'
                 alt=''
-                class='user__bookmark-img'
+                className='user__bookmark-img'
                 width='16'
                 height='21'
               />
@@ -71,7 +71,7 @@ export function Header() {
             </div>
             <div className='user__login'>
               <p className='user__greeting'>
-                Привет, <span class='user__name'>Друг</span>
+                Привет, <span className='user__name'>Друг</span>
               </p>
               <p className='user__text'>Что нового узнаем сегодня?</p>
             </div>
@@ -79,7 +79,7 @@ export function Header() {
               <img
                 src='img/camera-icon.svg'
                 alt=''
-                class='user__photo-img'
+                className='user__photo-img'
                 width='16'
                 height='14'
               />
@@ -92,12 +92,12 @@ export function Header() {
         <nav className='main-nav__wrapper'>
           <ul className='main-nav__list'>
             <li className='main-nav__item'>
-              <a href='#' class='main-nav__link main-nav__link--active'>
+              <a href='#' className='main-nav__link main-nav__link--active'>
                 Все курсы
               </a>
             </li>
             <li className='main-nav__item'>
-              <a href='#' class='main-nav__link'>
+              <a href='#' className='main-nav__link'>
                 Все практики
               </a>
             </li>
