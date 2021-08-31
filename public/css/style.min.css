@@ -950,7 +950,7 @@ img {
   width: 20px;
   height: 120px;
   background-color: #24272d;
-  /*background-image: url("../../img/arrow-left-icon.svg");*/
+  background-image: url("../img/arrow-left-icon.svg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-transition: background-color 0.3s;
@@ -976,7 +976,7 @@ img {
   right: 0;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  /*background-image: url("../../img/arrow-right-icon.svg");*/
+  background-image: url("../img/arrow-right-icon.svg");
 }
 
 .carousel--full {
@@ -1065,7 +1065,7 @@ img {
 .cta {
   margin-top: 70px;
   background-color: #f3f4f9;
-  /*background-image: url("../../img/cta-bg.png");*/
+  background-image: url("../img/cta-bg.png");
   background-repeat: no-repeat;
   background-position: 90% bottom;
 }

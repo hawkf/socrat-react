@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/sokrat-logo.svg";
+import logo from "../../img/sokrat-logo.svg";
 
 export function Header() {
   return (
@@ -92,14 +92,14 @@ export function Header() {
         <nav className='main-nav__wrapper'>
           <ul className='main-nav__list'>
             <li className='main-nav__item'>
-              <a href='#' className='main-nav__link main-nav__link--active'>
+              <Link to='#' className='main-nav__link main-nav__link--active'>
                 Все курсы
-              </a>
+              </Link>
             </li>
             <li className='main-nav__item'>
-              <a href='#' className='main-nav__link'>
+              <Link to='#' className='main-nav__link'>
                 Все практики
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

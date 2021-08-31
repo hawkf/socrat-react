@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 //import "../css/App.css";
-import { AppRoute } from "../const";
-import { MainPage } from "./main-page";
+import { AppRoute } from "../../const";
+import { MainPage } from "../main-page/main-page";
 
 function App() {
   return (

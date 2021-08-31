@@ -1,5 +1,5 @@
 import React from "react";
-import placeholder from "../img/main-slider-placeholder.jpg";
+import placeholder from "../../img/main-slider-placeholder.jpg";
 
 export function MainSlider() {
   return (
